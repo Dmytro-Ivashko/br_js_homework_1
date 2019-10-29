@@ -51,14 +51,14 @@
 // alert("На даному носії поміститься близько " + fileQty.toFixed(0) + " файлів " + "розміром " + fileSize + "МБ" )
 
 // Homework - 8
-let myMoney = prompt("Скілько грошей в гаманці?");
-let priceChocolate = prompt("Яка вартісь шоколаду вас влаштує?");
+// let myMoney = prompt("Скілько грошей в гаманці?");
+// let priceChocolate = prompt("Яка вартісь шоколаду вас влаштує?");
 
-let chocolateQty = myMoney / priceChocolate;
+// let chocolateQty = myMoney / priceChocolate;
 
-let rest = myMoney - (chocolateQty.toFixed(0) * priceChocolate);
+// let rest = myMoney - (chocolateQty.toFixed(0) * priceChocolate);
 
-console.log(rest);
+// console.log(rest);
 
-// alert("а данну суму ви можете придбати " + chocolateQty + " плиток" + "Ваша решта складе " + rest + "грн")
+// alert("На данну суму ви можете придбати " + chocolateQty.toFixed(0) + " плиток" + " Ваша решта складе " + rest.toFixed(2) + " грн")
 
