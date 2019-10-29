@@ -67,15 +67,18 @@
 // Homework - 9
 
 // let number = prompt("Введіть 3-х значне число");
-// let revNumber = 0;
 
-// digit = number % 10;
-// number = number / 10;
-// revNumber = revNumber * 10;
-// revNumber = number + digit;
+// n1 = number % 10;
+// n1 *= 100;
+// number = Math.floor(number / 10);
+// n2 = number % 10;
+// n2 *= 10; 
+// number = Math.floor(number / 10);
+// n3 = number % 10;
 
+// let revNumber = n1 + n2 + n3;
 
-// alert("Число в зворотньому порядку" + revNumber);
+// alert("Число в зворотньому порядку " + revNumber);
 
 // Homework - 10
 
