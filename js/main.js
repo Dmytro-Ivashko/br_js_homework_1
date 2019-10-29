@@ -51,16 +51,40 @@
 // alert("На даному носії поміститься близько " + fileQty.toFixed(0) + " файлів " + "розміром " + fileSize + "МБ" )
 
 // Homework - 8
-let myMoney = prompt("Скілько грошей в гаманці?");
-let priceChocolate = prompt("Яка вартісь шоколаду вас влаштує?");
+// let myMoney = prompt("Скілько грошей в гаманці?");
+// let priceChocolate = prompt("Яка вартісь шоколаду вас влаштує?");
 
-let chocolateQty = myMoney / priceChocolate;
+// let chocolateQty = myMoney / priceChocolate;
 
-let rest = myMoney - (Math.floor(chocolateQty) * priceChocolate);
+// let rest = myMoney - (Math.floor(chocolateQty) * priceChocolate);
 
-chocolateQty = Math.floor(chocolateQty);
+// chocolateQty = Math.floor(chocolateQty);
 
-console.log(rest);
+// console.log(rest);
 
-alert("На данну суму ви можете придбати " + chocolateQty + " плиток." + " Ваша решта складе " + rest.toFixed(2) + " грн")
+// alert("На данну суму ви можете придбати " + chocolateQty + " плиток." + " Ваша решта складе " + rest.toFixed(2) + " грн")
+
+// Homework - 9
+
+// let number = prompt("Введіть 3-х значне число");
+// let revNumber = 0;
+
+// digit = number % 10;
+// number = number / 10;
+// revNumber = revNumber * 10;
+// revNumber = number + digit;
+
+
+// alert("Число в зворотньому порядку" + revNumber);
+
+// Homework - 10
+
+// let deposit = prompt("Введіть суму депозиту на 2 міс");
+// const yearPercent = 5;
+
+// let mathPercent = yearPercent / 12;
+
+// let deposit_percent = (deposit * mathPercent.toFixed(2)) / 100;
+
+// alert("Ваші відсотки складуть " + deposit_percent.toFixed(2) + " грн");
 
