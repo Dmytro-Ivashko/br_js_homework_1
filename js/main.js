@@ -87,7 +87,7 @@
 
 // let mathPercent = yearPercent / 12;
 
-// let deposit_percent = (deposit * mathPercent.toFixed(2)) / 100;
+// let deposit_percent = ((deposit * mathPercent.toFixed(2)) / 100) * 2;
 
 // alert("Ваші відсотки складуть " + deposit_percent.toFixed(2) + " грн");
 
